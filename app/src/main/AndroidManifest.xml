@@ -9,15 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab2DAUTE">
-        <activity android:name=".ControlListWiew">
-
-        </activity>
-        <activity android:name=".Spiner">
-
-        </activity>
-        <activity android:name=".Checkbox"></activity>
+        <activity android:name=".Notificaciones"></activity>
+        <activity android:name=".ControlListWiew"></activity>
+        <activity android:name=".Spiner"></activity>
+        <activity android:name=".Checkbox" />
         <activity android:name=".Radio" />
-        <activity android:name=".Boton" >
+        <activity android:name=".Boton">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
