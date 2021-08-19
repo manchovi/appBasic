@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".Checkbox">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Ingrese el primer valor"
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="201dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el segundo valor"
+        />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+    <CheckBox
+        android:id="@+id/cBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sumar" />
+
+    <CheckBox
+        android:id="@+id/cBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restar" />
+
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:onClick="operar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operar"
+
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

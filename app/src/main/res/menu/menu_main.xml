@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itca.lab2_daute.MainActivity">
+    <item
+        android:id="@+id/action_pantalla1"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_icon1"
+        android:title="@string/action_pantalla1"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_pantalla2"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_icon2"
+        android:title="@string/action_pantalla2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_pantalla3"
+        android:orderInCategory="3"
+        android:title="@string/action_pantalla3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_pantalla4"
+        android:orderInCategory="3"
+        android:title="@string/action_pantalla4"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_pantalla5"
+        android:orderInCategory="3"
+        android:title="@string/action_pantalla5"
+        app:showAsAction="never" />
+
+
+</menu>
