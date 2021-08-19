@@ -10,18 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab2DAUTE">
         <activity android:name=".ControlListWiew">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Spiner">
 
         </activity>
         <activity android:name=".Checkbox"></activity>
         <activity android:name=".Radio" />
-        <activity android:name=".Boton" />
+        <activity android:name=".Boton" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />
         <activity

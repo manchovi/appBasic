@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Boton extends AppCompatActivity {
+
     private EditText et1, et2;
     private TextView tv1;
 
@@ -21,7 +22,6 @@ public class Boton extends AppCompatActivity {
         et1 = findViewById(R.id.et1);
         et2 = findViewById(R.id.et2);
         tv1 = findViewById(R.id.tv3);
-
     }
 
     public void sumar(View view) {
@@ -30,8 +30,8 @@ public class Boton extends AppCompatActivity {
         int nro1 = Integer.parseInt(valor1);
         int nro2 = Integer.parseInt(valor2);
         int suma = nro1 + nro2;
-        String x = String.valueOf(suma);
-        tv1.setText(x);
+        String resu = String.valueOf(suma);
+        tv1.setText(resu);
     }
 
 
